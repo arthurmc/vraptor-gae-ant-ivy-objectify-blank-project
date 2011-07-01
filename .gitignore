@@ -1,0 +1,5 @@
+lib/**/*
+*\lib
+*\classes
+*\appengine-generated
+target

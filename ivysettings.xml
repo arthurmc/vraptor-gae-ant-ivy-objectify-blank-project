@@ -1,0 +1,13 @@
+<ivysettings>
+	<settings defaultResolver="chain" />
+	<resolvers>
+		<ibiblio name="ibiblio" m2compatible="true" usepoms="true" />
+		<chain name="chain">
+			<ibiblio name="central" m2compatible="true" />
+			<ibiblio name="jboss" m2compatible="true" root="https://repository.jboss.org/nexus/content/groups/public-jboss" />
+			<url name="objectify" m2compatible="true">
+				<artifact pattern="http://objectify-appengine.googlecode.com/svn/maven/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"/>
+	        </url>
+		</chain>
+	</resolvers>
+</ivysettings>
